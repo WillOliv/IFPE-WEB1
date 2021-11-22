@@ -6,14 +6,14 @@
 </head>
 
 <body>
-    <div>
+    <form>
         <fieldset class="field">
             <legend>Formuláro de Inscrição</legend>
 
             <div class="teste">
                 <label for="">Nome</label>
                 <input 
-                style="margin-left: 123.9px ;"
+                style="margin-left: 125px ;"
                 type="text"
                 placeholder="Insira seu nome">
             </div>
@@ -21,16 +21,15 @@
             <div class="teste">
                 <label for="">Sobrenome</label>
                 <input 
-                style="margin-left: 98.5px ;"
+                style="margin-left: 99px ;"
                 type="text"
                 placeholder="Insira seu sobrenome">
-
             </div>
 
             <div class="teste">
                 <label for="">Idade</label>
                 <input 
-                style="margin-left: 126.5px ;"
+                style="margin-left: 127px ;"
                 type="number"
                 min="18"
                 max="120">
@@ -39,7 +38,7 @@
             <div class="teste">
                 <label for="">E-mail</label>
                 <input 
-                style="margin-left: 120.5px ;"
+                style="margin-left: 121px ;"
                 type="text"
                 placeholder="Insira seu e-mail">
             </div>
@@ -47,17 +46,19 @@
             <div class="teste">
                 <label for="">Sexo</label>
 
-                <div style="margin-left: 129px ;">
+                <div style="margin-left: 130px ;">
                     <label for="masculinoID">Masculino</label>
                     <input
                         type="radio"
                         value="1"
+                        name="radio"
                         id="masculinoID">
 
                     <label for="femininoID">Feminino</label>
                     <input 
                         type="radio"
                         value="1"
+                        name="radio"
                         id="femininoID">
                 </div>
         
@@ -66,15 +67,15 @@
             <div class="teste">
                 <label for="">Foto</label>
 
-                <button style="margin-left: 131.1px ;">
-                    <label for="">Chosem File</label>
-                </button>No file chosen   
+                <input 
+                type="file" 
+                style="margin-left: 132px ;">
             </div>
 
             <div class="teste">
                 <label for="">País</label>
                 
-                <select style="margin-left: 133.2px ;">
+                <select style="margin-left: 134px ;">
                     <option value="1">Argentina</option>
                     <option value="2">Brasil</option>
                     <option value="3">Colômbia</option>
@@ -86,7 +87,7 @@
             <div class="teste">
                 <label for="">As linguagens que você prefere?</label>
 
-                <select style="margin-left: 0px ;">
+                <select multiple style="margin-left: px ;">
                     <option value="1">Java</option>
                     <option value="2">C</option>
                     <option value="3">C++</option>
@@ -100,28 +101,25 @@
                 <label for="">Áreas de Atuação</label>
 
                 <input 
-                style="margin-left: 68px ;"
-                type="checkbox"
-                value="ham">
+                style="margin-left: 69px ;"
+                type="checkbox">
                 <label for="">Computação</label>
 
                 <input 
-                type="checkbox"
-                value="ham">
+                type="checkbox">
                 <label for="">Gestão</label>
 
                 <input 
-                type="checkbox"
-                value="ham">
+                type="checkbox">
                 <label for="">Pedagogia</label>
 
             </div>
 
             <div class="teste">
-                <input type="submit">
                 <input type="reset">
+                <input type="submit">
             </div>
         </fieldset>
-    </div>    
+    </form>    
 </body>
 </html>
